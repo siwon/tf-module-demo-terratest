@@ -23,4 +23,18 @@
 |------|-------------|
 | <a name="output_hello_world"></a> [hello\_world](#output\_hello\_world) | outputs.tf |
 
+
+
+# Examples
+
+## Simple example
+
+```hcl
+# examples/simple_example/main.tf
+module "simple_example" {
+  source = "../.."
+
+  your_name_here = "test-1"
+}
+```
 <!-- END_TF_DOCS -->

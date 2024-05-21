@@ -30,6 +30,14 @@ content: |-
 
   {{ .Footer }}
 
+  # Examples
+
+  ## Simple example
+
+  ```hcl
+  {{ include "examples/simple_example/main.tf" }}
+  ```
+
 output:
   file: "README.md"
   mode: replace
